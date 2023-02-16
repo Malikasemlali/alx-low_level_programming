@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints the size of various types on the computer it is compiled and run on
- * return: return 0 (success)
- */
+* main - Entry point
+* Description: "prints the size of various types on the computer it is compiled and run on"
+* return: return 0 (success)
+*/
 int main(void)
 {
 printf("Size of a char: %zu byte (s)\n", sizeof(char));
