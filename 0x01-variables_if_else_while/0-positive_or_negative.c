@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main: Entry point
-* Description: A program that prints whether number stored in the variable
+* main -  Entry point
+* Description: "A program that prints whether number stored in the variable"
 * return: Always 0 (Success)
 */
 int main(void)
