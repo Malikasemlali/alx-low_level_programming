@@ -4,7 +4,7 @@
 /**
 * main -  Entry point
 * Description: "A program that prints whether number stored in the variable"
-* return: Always 0 (Success)
+* Return: Always 0(Success)
 */
 int main(void)
 {
