@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	char c ='a';
-	while(c=>z)
+	char ch = 'a';
+	while(ch <= 'z');
 	{
-		putchar("%c \n",c);
-		c= c++;
+		putchar("%c \n", ch);
+		ch++;
 	}
 	return (0);
 }
