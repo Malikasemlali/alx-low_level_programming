@@ -6,11 +6,9 @@
  */
 int main(void)
 {
-	char ch = 'a';
-	while(ch <= 'z')
+	for(int x = 'a', x <= z, x++)
 	{
-		putchar("%c \n", ch);
-		ch++;
+		putchar(x);
 	}
 	return (0);
 }
