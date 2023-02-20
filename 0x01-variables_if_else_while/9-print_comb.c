@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Enter point
- * Description: "A program prints all combinations of single-digit numbers"
+ * Description: "A program prints combinations of single-digit numbers"
  * Return: Always 0 (success)
  */
 int main(void)
@@ -10,12 +10,10 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-	putchar(i);
+	putchar(i + '0');
 	if (i < 9)
-	{
-	putchar(',');
-	putchar(' ');
-	}
+	   putchar(',');
+	   putchar(' ');
 	}
 	putchar('\n');
 	return (0);
