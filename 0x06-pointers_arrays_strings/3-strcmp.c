@@ -4,7 +4,7 @@
  * @s1: string one
  * @s2: string two
  * Description: function that compares two strings
- * Return: string to stdout
+ * Return:Always 0
  */
 int _strcmp(char *s1, char *s2)
 {
